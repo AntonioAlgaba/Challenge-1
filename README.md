@@ -8,11 +8,11 @@ This website was full of div tags what I changed for semantic HTML tags, as weel
 
 Also I change the css code for better reading.
 
-I learnd HTMK Semantic Elements, and HTML <img> alt Attribute.
+I learnd HTML Semantic Elements, and HTML <img> alt Attribute.
 
 ## Credtis
 
-I used the following tutorialas from w£schools:
+I used the following tutorialas from w3schools:
 
 HTML Semantic Elements: https://www.w3schools.com/html/html5_semantic_elements.asp
 HTML <img> alt Attribute: https://www.w3schools.com/tags/att_img_alt.asp
