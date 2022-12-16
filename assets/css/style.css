@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* header style */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +24,7 @@ body {
     color: #d9dcd6;
 }
 
+/*header nav floating on the right*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -50,6 +51,7 @@ p {
     font-size: 16px;
 }
 
+/*Main style*/
 .marketingImg{
     height: 800px;
     width: 100%;
@@ -62,6 +64,8 @@ p {
     margin-left: 20px;
 }
 
+/* Change this here to follow the normal flow of the HTML. 
+This is the first section*/
 #search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -70,6 +74,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+ 
 
 #search-engine-optimization img {
     max-height: 200px;
@@ -125,6 +130,8 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* Second section*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -136,6 +143,8 @@ p {
     background-color: #2589bd;
 }
 
+   /* this class targets the 3 articles in the second section. 
+   Before there were 3 diferents classes with the same code*/
 .benefit-text {
     margin-bottom: 32px;
     color: #ffffff;
@@ -153,7 +162,7 @@ p {
     max-width: 150px;
 }
 
-
+/*footer style*/
 footer {
     padding: 30px;
     clear: both;
