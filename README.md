@@ -10,9 +10,18 @@ Also I changed the css code for better reading.
 
 I learnd HTML Semantic Elements, and HTML <img> alt Attribute.
 
+## Usage
+
+Aplication screenshot
+
+![screeshot](assets/images/screenshot.jpg)
+
+Deployed application link: https://antonioalgaba.github.io/Challenge-1-Horiseon/
+
 ## Credtis
 
 I used the following tutorialas from w3schools:
 
 HTML Semantic Elements: https://www.w3schools.com/html/html5_semantic_elements.asp
+
 HTML <img> alt Attribute: https://www.w3schools.com/tags/att_img_alt.asp
