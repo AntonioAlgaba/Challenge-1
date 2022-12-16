@@ -7,6 +7,14 @@
 body {
     background-color: #d9dcd6;
 }
+
+/* Target all h2 so I deleted the id="search-engine-optimization", 
+id="online-reputation-management" and id="social-media-marketing" css for the h2*/
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 /* header style */
 .header {
     padding: 20px;
@@ -66,7 +74,11 @@ p {
 
 /* Change this here to follow the normal flow of the HTML. 
 This is the first section*/
-#search-engine-optimization {
+
+/* Grouping the 3 id with the same style*/
+#search-engine-optimization,
+#online-reputation-management,
+#social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -75,37 +87,17 @@ This is the first section*/
     color: #ffffff;
 }
  
-
-#search-engine-optimization img {
+/* Images for the 3 articles in section with id=content. Before it was separeted*/
+#search-engine-optimization img,
+#online-reputation-management img,
+#social-media-marketing img
+ {
     max-height: 200px;
-}
-
-#search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .float-left {
     float: left;
     margin-right: 25px;
-}
-
-#online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-#online-reputation-management img {
-    max-height: 200px;
-}
-
-#online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .float-right {
@@ -122,14 +114,6 @@ This is the first section*/
     color: #ffffff;
 }
 
-#social-media-marketing img {
-    max-height: 200px;
-}
-
-#social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 /* Second section*/
 .benefits {
